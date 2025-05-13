@@ -1,0 +1,26 @@
+# Sample public application.yml to be used by Spring Cloud Config Server
+
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  security:
+    basic:
+      enabled: true
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/poojay1210/AzureDemo 
+          default-label: main   
+          username: poojay1210
+          password: Asaanj@#12345
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # exposes all endpoints like /actuator/health, /actuator/info
+  endpoint:
+    health:
+      show-details: always
