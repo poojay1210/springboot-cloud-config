@@ -1,0 +1,3 @@
+
+application:
+    message: Configured by Spring Cloud Config Server
