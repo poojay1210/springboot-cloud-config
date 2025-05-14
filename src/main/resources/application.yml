@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/poojay1210/AzureDemo 
+          uri: https://github.com/poojay1210/springboot-microservice-using-cloud-features  
           default-label: main   
           username: poojay1210
           password: Asaanj@#12345
